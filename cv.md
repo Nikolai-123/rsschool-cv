@@ -70,4 +70,4 @@ https://www.linkedin.com/in/nikolay-ryzhevsky-a6a072150/
 ## Work experience ##
 
 **2012 - 2020:** 
-- Belrosagroservice. Position: logistic.
+- Belrosagroservice. Position: logistics manager.
