@@ -1,0 +1,111 @@
+ * {
+ margin: 0; /* нулевая граница */
+ padding: 0; /* нулевые отступы */
+ border: 0; /* больше всего для картинок в IE6 */
+ outline: 0; /* точечная граница вокруг ссылок в Firefox */
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ }
+ body {
+ line-height: 1;
+ }
+ ol, ul {
+ list-style: none; /* маркеры без кружочков */
+ }
+ blockquote, q {
+ quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ content: '';
+ content: none;
+ }
+ :focus {
+ outline: 0; /* Firefox выделяет рамкой из точек все ссылки при нажатии */
+ }
+ ins {
+ text-decoration: none;
+ }
+ del {
+ text-decoration: line-through;
+ }
+ table {
+ border-collapse: collapse; /* cellspacing="0" */
+ border-spacing: 0;
+ }
+ /* стили */
+ html{
+     background-image: linear-gradient(to right, rgb(254,207,127) 0%,
+     rgb(255,209,132) 25%, rgb(250,208,134) 25%,rgb(254,214,144) 50%,  rgb(255,235,170) 75%, rgb(255,227,171) 100%) ;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+.wrapper {
+    background: url(photo/paper.jpg) ;
+    padding: 25px;
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: "Open Sans", "Tahoma", sans-serif;
+    width: 50%;
+    margin: 10px auto;
+    box-shadow: -25px 30px 50px  rgba(0,0,0,0.5);
+    
+ }
+ header{
+    color: rgb(90, 81, 81);
+    font-size: 2em;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+ }
+ header img{
+    border-radius: 50%;
+    padding-top: 15px;
+ }
+ h1{
+    padding-top: 30px;
+ }
+ aside{
+    padding-top: 80px;
+    width: 50%;
+    float: right;
+ }
+ section{
+    border-bottom: 2px solid black;
+ }
+ section:last-of-type{
+    border-bottom: none;
+ }
+ h2{
+    text-decoration: underline;
+ }
+ 
+ a.logo-rs_school {
+    margin-left: 280px;
+ }
+ footer{
+    text-align: center;
+ }
+footer span{
+font-size: 50px;
+margin-left: 220px;
+vertical-align:top ;
+display: inline-block;
+margin-top: 55px;
+}
+.github{
+   width: 135px ;
+   height: 135px;
+}
+.rs_school{
+   width:150px;
+   height: 129px;
+}
+a:hover{
+   opacity: .5;
+}
