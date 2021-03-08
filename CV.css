@@ -1,4 +1,4 @@
-* {
+ * {
  margin: 0; /* нулевая граница */
  padding: 0; /* нулевые отступы */
  border: 0; /* больше всего для картинок в IE6 */
@@ -43,16 +43,17 @@
      text-decoration: none;
      color: black;
  }
-.wrapper{
-    background: url(https://pixabay.com/get/g22123e1d0a5fba49674d8e8403cdcf29c9615170b73833a8e33b8d711f6e13adc5e8781250fa8f5f837c6ca4d1b31026_1920.jpg) ;
+.wrapper {
+    background: url(photo/paper.jpg) ;
     padding: 25px;
-
+    padding-bottom: 0;
     font-size: 20px;
     line-height: 160%;
     font-family: "Open Sans", "Tahoma", sans-serif;
     width: 50%;
     margin: 10px auto;
     box-shadow: -25px 30px 50px  rgba(0,0,0,0.5);
+    
  }
  header{
     color: rgb(90, 81, 81);
@@ -80,3 +81,31 @@
  section:last-of-type{
     border-bottom: none;
  }
+ h2{
+    text-decoration: underline;
+ }
+ 
+ a.logo-rs_school {
+    margin-left: 280px;
+ }
+ footer{
+    text-align: center;
+ }
+footer span{
+font-size: 50px;
+margin-left: 220px;
+vertical-align:top ;
+display: inline-block;
+margin-top: 55px;
+}
+.github{
+   width: 135px ;
+   height: 135px;
+}
+.rs_school{
+   width:150px;
+   height: 129px;
+}
+a:hover{
+   opacity: .5;
+}
